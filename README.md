@@ -13,6 +13,10 @@ pnpm dev
 # or
 bun dev
 ```
+Second run the jason server in the port 3004 :
+```bash
+json-server --watch db.json --port 3004
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
