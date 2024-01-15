@@ -48,7 +48,8 @@ const CreateProfile = () => {
                 name:name,
                 lastName:lastName,
                 number:number,
-                loge:false
+                loge:false,
+                img:""
             })
             setCheck(false)
             router.push(`profile/${id}`)
